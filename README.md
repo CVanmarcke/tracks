@@ -1,9 +1,8 @@
 # Tracks: a GTD™ compatible web application built with Ruby on Rails
 
-[![Build Status](https://github.com/TracksApp/tracks/workflows/Continuous%20Integration/badge.svg)](https://github.com/TracksApp/tracks/actions)
-[![Code Climate](https://codeclimate.com/github/TracksApp/tracks/badges/gpa.svg)](https://codeclimate.com/github/TracksApp/tracks)
-[![Translation status](https://hosted.weblate.org/widgets/tracks/-/tracks/svg-badge.svg)](https://hosted.weblate.org/engage/tracks/)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/6459/badge)](https://bestpractices.coreinfrastructure.org/projects/6459)
+This is a fork of the [Tracks](https://github.com/TracksApp/tracks), customized to use SQLite and deployed with docker.
+Installation is very easy: clone this repo, and start the container with `docker compose up -d`. The default port is 3000 but can be modified in `docker-compose.yml`.
+The sqlite database is created in the `database` folder, but this mount location can also be changed in `docker-compose.yml`.
 
 ## About
 
